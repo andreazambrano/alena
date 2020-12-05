@@ -79,7 +79,7 @@ overflow:visible;
   width:60px;
   height:60px;
   bottom:40px;
-  right:40px;
+  /*right:40px;*/
   background-color:#25d366;
   color:#FFF;
   border-radius:50px;
@@ -443,7 +443,7 @@ overflow:visible;
 	color:#fff;
 	}
 	
-	#mainmenu li a:after { float:right; position:relative; font-family:"FontAwesome"; content:"\f111"; font-size:6px; margin-left:20px; margin-top:0px; color:#a25e5c; }
+	#mainmenu li a:after { float:right; position:relative; font-family:"BodoniBook"; content:"\f111"; font-size:6px; margin-left:20px; margin-top:0px; color:#a25e5c; }
 	
 	#mainmenu li:last-child a:after{display:none;}
 	
@@ -647,7 +647,7 @@ overflow:visible;
 	}
 	
 	#menu-btn:before{
-	font-family:FontAwesome;
+	font-family:BodoniBook;
 	content: "\f0c9";
 	font-size:24px;
 	color:#eceff3;
@@ -1343,7 +1343,7 @@ border:solid 1px #ddd;
 	}
 	
 	.arrow-up:before{
-	font-family:"FontAwesome";
+	font-family:"BodoniBook";
 	font-size:20px;
 	content:"\f067";
 	color:#222;
@@ -1353,7 +1353,7 @@ border:solid 1px #ddd;
 	}
 	
 	.arrow-down:before{
-	font-family:"FontAwesome";
+	font-family:"BodoniBook";
 	font-size:20px;
 	content:"\f068";
 	color:#222;
@@ -1523,7 +1523,7 @@ border:solid 1px #ddd;
 	}
 	
 	a.btn-text:after{
-	font-family:FontAwesome;
+	font-family:BodoniBook;
 	content: "\f054";
 	padding-left:10px;
 	}
@@ -1543,7 +1543,7 @@ border:solid 1px #ddd;
 	padding:10px 30px 10px 30px;
 	}
 	a.btn-big:after{
-	font-family:FontAwesome;
+	font-family:BodoniBook;
 	content: "\f054";
 	margin-left:20px;
 	}
@@ -1557,7 +1557,7 @@ border:solid 1px #ddd;
 	}
 	
 	.btn-line:after, a.btn-line:after{
-	font-family:FontAwesome;
+	font-family:BodoniBook;
 	content: "\f054";
 	margin-left:10px;
 	}
@@ -1586,21 +1586,21 @@ border:solid 1px #ddd;
 	}
 	
 	a.btn-slider{
-	font-size:13px;
+	font-size:20px;
 	font-weight:bold;
 	color:#fff;
 	letter-spacing:3px;
 	line-height:normal;
 	text-decoration:none;
 	text-transform:uppercase;
-	border:solid 2px #fff;
+	border:solid 2px #a25e5c;
 	padding:10px 30px 10px 30px;
 	}
 	a.btn-slider:hover{
 	color:#222;
 	background:#fff;
 	border-color:#000;
-	border:solid 2px #fff;
+	border:solid 2px #a25e5c;
 	}
 	a.btn-slider:hover:after{
 	color:#222 ;
@@ -1634,12 +1634,12 @@ border:solid 1px #ddd;
 	background:none;
 	}
 	.de_count h3{
-	font-family:"Dosis", Arial, Helvetica, sans-serif;
+	font-family:"BodoniBook", Arial, Helvetica, sans-serif;
 	font-size:40px;
 	font-weight:600;
 	}
 	.de_light .de_count h3{
-	font-family:"Montserrat";
+	font-family:"BodoniBook";
 	font-weight:500;
 	}
 	.de_count span{
@@ -1710,13 +1710,13 @@ border:solid 1px #ddd;
 	
 	.de_form input[type="radio"] + label:before{
 	content:"\f111";
-	font-family:"FontAwesome";
+	font-family:"BodoniBook";
 	margin-right:10px;
 	}
 	
 	.de_form input[type="checkbox"] + label:before{
 	content:"\f00c";
-	font-family:"FontAwesome";
+	font-family:"BodoniBook";
 	margin-right:10px;
 	}
 
@@ -2346,7 +2346,7 @@ border:solid 1px #ddd;
 	}
 	
 	.ul-style-2 li:before{
-	font-family:"FontAwesome";
+	font-family:"BodoniBook";
 	content:"\f00c";
 	margin-right:15px;
 	}
@@ -3056,13 +3056,13 @@ border:solid 1px #ddd;
 	}
 	
 	.btn-right:after{
-	font-family:FontAwesome;
+	font-family:BodoniBook;
 	content: "\f054";
 	padding-left:10px;
 	}
 	
 	.btn-left:before{
-	font-family:FontAwesome;
+	font-family:BodoniBook;
 	content: "\f053";
 	padding-right:10px;
 	}
@@ -3103,7 +3103,7 @@ border:solid 1px #ddd;
 	}
 	
 	.expand h4:after{
-		font-family:FontAwesome;
+		font-family:BodoniBook;
 		content: "\f107";
 		color:#fff;
 		font-size:20px;
@@ -3279,7 +3279,7 @@ border:solid 1px #ddd;
 	}
 	
 	.de_testi blockquote:before{
-	font-family:FontAwesome;
+	font-family:BodoniBook;
 	content: "\f10d";
 	color:#111;
 	padding-bottom:10px;
@@ -4484,7 +4484,7 @@ color:rgba(0,0,0,1) !important;
 }
 
 .nav-prev:before,.nav-next:before, .nav-exit:before{
-	font-family:"FontAwesome";
+	font-family:"BodoniBook";
 	content:'\f177';
 	color:#fff;
 	padding:20px;
@@ -4660,7 +4660,7 @@ box-shadow:none;
 }
 
 .owl-arrow .prev:before, .owl-arrow .next:before{
-	font-family:"FontAwesome";
+	font-family:"BodoniBook";
 	content:'\f177';
 	color:#fff;
 	padding:20px;
@@ -4694,7 +4694,7 @@ position:absolute;
 left:0;
 }
 .owl-custom-nav .btn-next:before{
-font-family:"FontAwesome";
+font-family:"BodoniBook";
 content:"\f105";
 color:#111;
 background:#333;
@@ -4702,7 +4702,7 @@ padding:5px 12px 5px 12px;
 font-size:20px;
 }
 .owl-custom-nav .btn-prev:before{
-font-family:"FontAwesome";
+font-family:"BodoniBook";
 content:"\f104";
 color:#111;
 background:#333;
@@ -4739,7 +4739,7 @@ font-size:20px;
 }
 
 .owl-theme .owl-controls .owl-buttons .owl-prev:before{
-font-family:"FontAwesome";
+font-family:"BodoniBook";
 content:"\f104";
 color:#111;
 padding:5px 12px 5px 12px;
@@ -4750,7 +4750,7 @@ left:-10px;
 }
 
 .owl-theme .owl-controls .owl-buttons .owl-next:after{
-font-family:"FontAwesome";
+font-family:"BodoniBook";
 content:"\f105";
 color:#111;
 padding:5px 12px 5px 12px;
@@ -4832,7 +4832,7 @@ right:-15px;
     opacity: 1;
 }
 #back-to-top:before{
-	font-family:"FontAwesome";
+	font-family:"BodoniBook";
 	font-size:22px;
 	content:"\f106";
 	color:#222;
@@ -4980,7 +4980,7 @@ height:42px;
 }
 
 #btn-search:before{
-	font-family:FontAwesome;
+	font-family:BodoniBook;
 	content: "\f002";
 	font-size:24px;
 	color:#111;
